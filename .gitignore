@@ -1,0 +1,101 @@
+# Ignore build directory
+build/
+
+# Compiled object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.mod
+*.exp
+
+# Vulkan cache (Windows)
+vk_layer_settings.txt
+vulkan-1.dll
+vkconfig/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio files
+.vscode/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.user
+*.sln
+*.ipch
+*.opensdf
+*.sdf
+*.dir/
+*.pdb
+*.obj
+*.tlog
+*.lastbuildstate
+*.idb
+*.VC.db
+*.VC.opendb
+
+# Qt-creator
+*.autosave
+*.creator
+*.creator.user
+*.pro.user
+
+# Windows specific
+Thumbs.db
+*.DS_Store
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.old
+*.orig
+
+# Dependency directories
+deps/
+vendor/
+
+# Ignore system-specific files
+.DS_Store
